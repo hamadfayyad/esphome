@@ -25,3 +25,62 @@
 | CS0   |                                                                                            | CS0    |                           |
 | IO12  | HSPI_MISO                                                                                  | GPIO12 |                           |
 | IO16  |                                                                                            | GPIO16 |                           |
+
+DC 5V/DC 8-80V input 10A relay
+
+ 
+
+All IOs on board,  Tasmota user can connect anything for example : motion sensor/ temperature sensor etc to the board, IO description as picture show.
+
+ 
+
+Self-Locking:
+
+ 
+
+The default setting of the relay is self-locking 
+
+ 
+
+Inching Mode:
+
+ 
+
+To change self-locking mode to Inching mode, please follow the instruction below :
+
+ 
+
+Use commandline input : PulseTime 1
+
+   
+
+ 
+
+Operating voltage: 5V/8-80V DC
+relay on/off status respectively
+Two input interfaces
+Supports to control different voltage ranges
+USB port power supply more convenient
+Board consumption: <1W
+Standby current: 80mA
+Max input current: 10A
+Max Wattage: 2200W
+Relay lifespan: ≥one million times
+100M electrical insulation resistance
+Electric shock voltage: 1000V
+Relay maximum pull time: 15ms
+Relay maximum release time: 5ms
+Working mode: inching / self-locking
+Wireless Standard: 2.4GHz, 802.11 b/g/n
+Application: access control, turn on PC, garage door, etc.
+Computer application: Remote control computer boot
+Operating temperature: -40 degrees to +70 degrees
+Operating Humidity 40%-80% RH
+
+## Install 
+
+First should know the USB port Not possible to flashing 
+USB for power only
+
+USB to TTL converter UART module CH340G CH340 3.3V 5V
+![usb-to-ttl-converter](https://github.com/user-attachments/assets/40975051-cfde-437d-906c-b68e2a68bb2b)
